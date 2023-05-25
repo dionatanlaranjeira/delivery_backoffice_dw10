@@ -1,5 +1,5 @@
 enum SessionStorageKeys {
-  accessToken('/ACESS_TOKEN/');
+  accessToken('/ACCESS_TOKEN/');
   final String key;
   const SessionStorageKeys(this.key);
 }
