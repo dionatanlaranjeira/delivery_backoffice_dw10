@@ -4,7 +4,10 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'core/ui/themes/theme_config.dart';
 
 class AppWidget extends StatelessWidget {
-  const AppWidget({super.key});
+  final _navigatorKey = GlobalKey<NavigatorState>();
+  AppWidget({super.key}){
+
+  }
 
   @override
   Widget build(BuildContext context) {
