@@ -3,6 +3,7 @@ import '../../repositories/auth/auth_repository.dart';
 import '../../repositories/auth/auth_repository_impl.dart';
 import '../../services/auth/login_service.dart';
 import '../../services/auth/login_service_impl.dart';
+import '../home/home_page.dart';
 import 'login_controller.dart';
 import 'login_page.dart';
 
@@ -16,5 +17,5 @@ class LoginModule extends Module {
 
   @override
   List<ModularRoute> get routes =>
-      [ChildRoute('/', child: (context, args) => const LoginPage())];
+      [ChildRoute('/', child: (context, args) => const HomePage())];
 }
